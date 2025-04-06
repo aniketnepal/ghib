@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Yi8jiQrQdajywYtrC9a7brJBjKpFXRAT
 """
 
-streamlit run ghibli_style_app.py
+
 
 import streamlit as st
 from PIL import Image
