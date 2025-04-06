@@ -19,7 +19,8 @@ import requests
 from io import BytesIO
 
 # Load a simulated "Ghibli-style" image as style image
-STYLE_IMAGE_URL = "https://imgur.com/a/6nXJrqa"  # Replace with actual Ghibli style painting if needed
+STYLE_IMAGE_URL = "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Totoro.jpg/220px-Totoro.jpg"
+ # Replace with actual Ghibli style painting if needed
 
 @st.cache_resource
 def load_style_image():
